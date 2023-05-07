@@ -1,0 +1,65 @@
+.bss-bcp-pagination {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bss-bcp-pagination input {
+    width: 50px;
+    height: 30px;
+}
+
+.page-btn {
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+
+    background-color: transparent;
+    color: rgb(48,59,86);
+    cursor: pointer;
+    text-align: center;
+}
+
+.page-btn:hover {
+    background-color: #ebebeb; 
+}
+
+.page-btn.act {
+    background-color: rgb(235,235,235);
+}
+
+.bss-bcp-pagination-btn {
+    width: 60px;
+    height: 30px;
+    
+    background-color: transparent;
+    border: none;
+    color: rgb(48,59,86);
+    padding: 6px 10px;
+    margin: 2px 2px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bss-bcp-pagination-btn:hover {
+    background-color: #ebebeb;
+}
+
+.bss-bcp-pagination-btn.disabled {
+    opacity: 0.1; 
+    cursor: default
+}
+
+.bss-bcp-ellipsis:hover {
+    cursor: pointer;
+}
