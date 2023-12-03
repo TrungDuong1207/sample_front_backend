@@ -1,0 +1,11 @@
+Trong MySQL, partitioning (phân vùng) là một tính năng cho phép bạn chia nhỏ một bảng lớn thành các phần nhỏ hơn gọi là partitions. 
+Mỗi partition là một phần của bảng, và mỗi phần này có thể được lưu trữ và quản lý một cách độc lập với các phần khác. 
+Điều này có thể cải thiện hiệu suất và quản lý dữ liệu, đặc biệt là khi làm việc với các bảng lớn.
+
+Dưới đây là một số điểm quan trọng về partitioning trong MySQL:
+
+- Hiệu suất Tìm kiếm và Truy xuất: Partitioning có thể cải thiện hiệu suất của các truy vấn đọc (SELECT) bằng cách giảm thiểu số lượng dữ liệu cần phải quét.
+- Quản lý Dữ liệu: Khi có partitioning, bạn có thể quản lý và duy trì dữ liệu theo các phần riêng biệt. Điều này giúp tối ưu hóa quá trình sao lưu, khôi phục, và bảo trì hệ thống cơ sở dữ liệu.
+- Tính Tích hợp cao: Partitioning có thể được tích hợp với các tính năng khác của MySQL như indexing, foreign keys, và các chiến lược phân chia (splitting) và hợp nhất (merging) partitions.
+- Phân chia Dữ liệu Theo Tiêu chí: Bạn có thể chia nhỏ dữ liệu của bảng theo các tiêu chí như giá trị cột hoặc biểu thức, giúp tổ chức và quản lý dữ liệu theo các điều kiện cụ thể.
+- Loại Partitioning: MySQL hỗ trợ nhiều loại partitioning, bao gồm Range, List, Hash, và Key. Mỗi loại phù hợp với một loạt các tình huống sử dụng khác nhau.

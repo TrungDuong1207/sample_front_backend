@@ -1,0 +1,2 @@
+Trong MySQL, có một số sự kiện (event) được hỗ trợ để thực hiện các tác vụ lên cơ sở dữ liệu tự động theo định kỳ. 
+Sự kiện MySQL giúp bạn thực hiện các nhiệm vụ như làm mới dữ liệu, sao lưu, hoặc thực hiện các thao tác khác theo định kỳ.
