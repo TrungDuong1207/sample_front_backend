@@ -1,0 +1,1 @@
+SQL Window Functions, hay còn được gọi là OLAP (Online Analytical Processing) Functions, là một phần của SQL dùng để thực hiện các phép toán trên một tập hợp dữ liệu đã được sắp xếp thành các "cửa sổ" (windows) tương đối. Các cửa sổ này được xác định bằng cách sử dụng một OVER() clause để chỉ ra phạm vi của dữ liệu trên đó các hàm sẽ được áp dụng.
