@@ -18,6 +18,8 @@ const updateStudentMutation = useMutation({
 
 ```
 
-onSuccess là một callback được gọi khi mutation hoàn thành mà không có lỗi.
-Trong ví dụ này, khi mutation thành công, bạn sử dụng queryClient.setQueryData để cập nhật dữ liệu trong cache của truy vấn có khóa là ['student', id] (nơi id là id của sinh viên cụ thể).
-Điều này giúp cập nhật ngay lập tức dữ liệu trong cache mà không cần phải làm mới toàn bộ trang hoặc thực hiện lại truy vấn.
+- onSuccess là một callback được gọi khi mutation hoàn thành mà không có lỗi.
+- Trong ví dụ này, khi mutation thành công, bạn sử dụng queryClient.setQueryData để cập nhật dữ liệu trong cache của truy vấn có khóa là ['student', id] (nơi id là id của sinh viên cụ thể).
+- Điều này giúp cập nhật ngay lập tức dữ liệu trong cache mà không cần phải làm mới toàn bộ trang hoặc thực hiện lại truy vấn.
+
+- invalidateQueries thường được sử dụng khi bạn muốn đảm bảo dữ liệu mới từ nguồn, trong khi setQueryData thường được sử dụng khi bạn muốn cập nhật dữ liệu trong cache mà không cần làm mới truy vấn từ nguồn dữ liệu.

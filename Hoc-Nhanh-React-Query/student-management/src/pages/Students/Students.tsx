@@ -31,7 +31,7 @@ export default function Students() {
       const controller = new AbortController()
       setTimeout(() => {
         controller.abort()
-      }, 5000)
+      }, 5000)//để hủy bỏ truy vấn sau 5 giây 
       return getStudents(page, LIMIT, controller.signal)
     },
     keepPreviousData: true,
