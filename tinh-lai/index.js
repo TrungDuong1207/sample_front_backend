@@ -7,9 +7,9 @@ function tinhVonCuoiCung(vonBanDau, tyLeLaiNgay, soNgay) {
 }
 
 // Ví dụ sử dụng
-var vonBanDau = 1000;
+var vonBanDau = 100;
 var tyLeLaiNgay = 0.05; // 5%
-var soNgay = 30; // 1 năm
+var soNgay = 30 * 2; // 1 năm
 
 var vonCuoiCung = tinhVonCuoiCung(vonBanDau, tyLeLaiNgay, soNgay);
 console.log('Vốn cuối cùng sau 1 năm là: $' + vonCuoiCung);
